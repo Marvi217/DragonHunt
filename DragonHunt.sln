@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36717.8 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DragonHunt", "DragonHunt\DragonHunt.csproj", "{A9920BFA-7CA6-45D5-AC9C-0254E9BCAC89}"
+	ProjectSection(ProjectDependencies) = postProject
+		{82A46068-5E79-4391-A3CD-68E2257258FF} = {82A46068-5E79-4391-A3CD-68E2257258FF}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DragonHuntLib", "Lib\DragonHuntLib.csproj", "{82A46068-5E79-4391-A3CD-68E2257258FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9920BFA-7CA6-45D5-AC9C-0254E9BCAC89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9920BFA-7CA6-45D5-AC9C-0254E9BCAC89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9920BFA-7CA6-45D5-AC9C-0254E9BCAC89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9920BFA-7CA6-45D5-AC9C-0254E9BCAC89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82A46068-5E79-4391-A3CD-68E2257258FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82A46068-5E79-4391-A3CD-68E2257258FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82A46068-5E79-4391-A3CD-68E2257258FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82A46068-5E79-4391-A3CD-68E2257258FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F478B143-3EF3-45C7-960F-785FC265F869}
+	EndGlobalSection
+EndGlobal
